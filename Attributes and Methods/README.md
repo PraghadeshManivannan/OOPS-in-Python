@@ -13,16 +13,16 @@ An attribute that is common across all instances of a class is called a class at
 An attribute that is specific to each instance of a class is called an instance attribute. Instance attributes are accessed within an instance method by making use of the self object.
 ##### Syntax:
     class className:
-    def methodName(self):
-     self.instanceAttribute = value
+      def methodName(self):
+        self.instanceAttribute = value
      
 #### Self Parameter
 Every instance method accepts has a default parameter that is being accepted. By convention, this parameter is named self. The self parameter is used to refer to the attributes of that
 instance of the class
 ##### Example:
     class Employee:
-    def setName(self, name):
-      self.name = name
+      def setName(self, name):
+        self.name = name
       
     employee = Employee()
     employee.setName('John')
