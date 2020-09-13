@@ -32,7 +32,7 @@ A base class which contains abstract methods that are to be overridden in its de
         @abstractmethod
         def area(self):
           return 0
-     class Square(Shape):
+      class Square(Shape):
         def area(self, side)
           return side * side
 ### The naming conventions used for private, protected and public members
